@@ -18,6 +18,7 @@ Run the webpack development server:
 ```
 npm run dev
 ```
+open http://localhost:8080/ 
 ## Start
 
 Run the webpack server:
