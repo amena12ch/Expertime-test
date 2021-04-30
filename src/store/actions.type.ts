@@ -1,0 +1,3 @@
+export const GET_BRANDS ='GET_BRANDS'
+export const GET_REQUEST_LIST ='GET_REQUEST_LIST'
+export const GET_REQUEST = 'GET_REQUEST'
