@@ -10,7 +10,7 @@ import {FETCH_BRANDS} from "./mutations.type";
        actions : {
           [GET_BRANDS](context) {
               return new Promise(resolve => {
-                axios.get('/static/brands.json')
+                axios.get('/data/brands.json')
                   .then(({data}) => {
                     context.commit(FETCH_BRANDS, data);                    
                   })
