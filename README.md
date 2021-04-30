@@ -18,3 +18,10 @@ Run the webpack development server:
 ```
 npm run dev
 ```
+## Start
+
+Run the webpack server:
+```
+npm run start
+```
+open http://localhost:3001/ 
