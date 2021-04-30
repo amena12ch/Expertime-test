@@ -11,7 +11,7 @@ import {FETCH_REQUEST_LIST, FETCH_REQUEST,EDIT_REQUEST} from "./mutations.type";
        actions : {
           [GET_REQUEST_LIST](context) {
               return new Promise(resolve => {
-                axios.get('/static/payload-rmp.json')
+                axios.get('/data/payload-rmp.json')
                   .then(({data}) => {
                     context.commit(FETCH_REQUEST_LIST, data.requests);                    
                   })
